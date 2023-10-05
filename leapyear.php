@@ -7,12 +7,27 @@
 </head>
 <body>
 <?php
-    echo "<h1>Leap Year Program</h1>";
-    $Year = 2003;
+
+
+    echo "<h1>leapyear program</h1>";
+
+
+    $leapyear = 1998;
+
+
     if($Year %4==0){
-        echo $Year . " is Leap Year <br>";
+        
+        echo $leapyear . "Leap Year <br>";
+        
     }else 
-        echo $Year . " is not a Leap Year <br>";
+        
+        echo $leapyear . "Not Leap Year <br>";
+
     ?>
+
+
+
+
+    
 </body>
 </html>
