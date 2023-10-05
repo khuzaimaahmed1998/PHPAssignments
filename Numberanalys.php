@@ -7,24 +7,24 @@
 </head>
 <body>
 <?php
-    echo "<h1>Number Analysis</h1>";
-    $Num = 9;
+    echo "<h1>Positive, negative, even & odd numbers</h1>";
+    $numberber = 2;
 
-    if($Num > 0){
+    if($number > 0){
 
-    echo $Num . " is Positive Number <br>";
+    echo $number . "positive number <br>";
 
     }else
 
-    echo $Num . " is Negative Number <br>";
+    echo $number . "negative number <br>";
     
-    if($Num %2==0){
+    if($number %2==0){
 
-    echo $Num . " is Even Number <br>";
+    echo $number . "even number <br>";
 
     }else
 
-    echo $Num . " is Odd Number <br>";
+    echo $number . "odd number <br>";
 
     ?>
 </body>
